@@ -1,0 +1,20 @@
+{
+  "name": "luminous-file-resource-type-loader",
+  "version": "0.0.1",
+  "description": "luminous-file-resource-type-loader\r =======================",
+  "main": "lib/luminous-file-resource-type-loader.js",
+  "dependencies": {
+    "luminous-base": "~0.0.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.3.0",
+    "luminous-server-config": "~0.0.0"
+  },
+  "scripts": {
+    "test": "jasmine-node --forceexit specs/"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
