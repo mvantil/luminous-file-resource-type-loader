@@ -7,7 +7,7 @@ describe("Luminous File typeLoader suite", function() {
     it("must be able to load templates", function(done) {
         var fileReadResult = 'Fake result';
         spyOn(fs, 'readFile').andCallFake(function(fileName, callback) {
-            expect(fileName).toBe('typeLoader/string.ko');
+            expect(fileName).toBe('template/string.ko');
             callback(null, fileReadResult);
         });
         typeLoader.load('/string', function(err, typeLoader) {
