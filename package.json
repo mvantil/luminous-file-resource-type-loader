@@ -1,9 +1,11 @@
 {
   "name": "luminous-file-resource-type-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "luminous-file-resource-type-loader\r =======================",
   "main": "lib/luminous-file-resource-type-loader.js",
   "dependencies": {
+    "async": "~0.2.7",
+    "underscore": "~1.4.4",
     "luminous-base": "~0.0.2"
   },
   "devDependencies": {
@@ -13,7 +15,10 @@
   "scripts": {
     "test": "jasmine-node --forceexit specs/"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvantil/luminous-file-resource-type-loader"
+  },
   "author": "",
   "license": "BSD",
   "readmeFilename": "README.md"
